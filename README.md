@@ -147,4 +147,4 @@ python servicenow_keepalive.py --once    # ping once and exit (GitHub Actions / 
 
 - The user account used must have access to the `sys_user` table. The `admin` role works out of the box.
 - The 12-hour ping interval gives a large safety margin well within the 10-day reclaim window.
-- Logs are written to `servicenow_keepalive.log` in the working directory when run locally.
+- Logs are written to `servicenow_keepalive.log` in the working directory when run locally..
